@@ -47,8 +47,8 @@ PR implementing new features or changing large portions of code are helpful. But
 1. Clone the BuildCraft repository into 'baseDir/BuildCraft/'
 1. Clone (and update) the submodules into 'baseDir/BuildCraft with 'git submodule init' and 'git submodule update'
 1. Navigate to basedir/BuildCraft in a shell and run one of two commands:
- * `gradlew setupCIWorkspace build` to just build a current jar (this may take a while).
- * `gradlew setupDecompWorkspace` to setup a complete development environment.
+ * `./gradlew setupCIWorkspace build` to just build a current jar (this may take a while).
+ * `./gradlew setupDecompWorkspace` to setup a complete development environment.
  * With `Gradle` installed: use `gradle` instead of `gradlew`
  * On Windows: use `gradlew.bat` instead of `gradlew`
 1. The compiles and obfuscated module jars will be in 'baseDir/BuildCraft/build/libs/&lt;build number&gt;/modules'
